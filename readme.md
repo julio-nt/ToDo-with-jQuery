@@ -1,12 +1,12 @@
 # To do list
 
-##### Made by Júlio Nunes
+#### Made by Júlio Nunes
 
 I made this project to train my jQuery skills, it was made in a day after studying jQuery from [FreeCodeCamp](https://www.freecodecamp.org/learn).
 
 ## How it works?
 
-It's a simple to do list, you can write what you want to add to the list and press 'enter' or click on 'add' to add the task writen. If there's nothing writen it will give an alert message.
+It's a simple to do list, you can write what you want to add to the list and press 'enter' or click on 'add' to add the task writen, when you finish the task you can click on it to mark it as completed. If there's nothing writen it will give an alert message.
 
 ## What is missing?
 
