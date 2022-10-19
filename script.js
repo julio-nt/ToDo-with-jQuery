@@ -25,7 +25,7 @@ $(document).ready(function () {
 			);
 			$('.alert').css('cursor', 'pointer');
 			$('input').val('');
-		} else alert('Nenhuma tarefa foi insirida');
+		} else alert('No task was inserted');
 	});
 	$('#add-list').keypress(function (event) {
 		if (event.keyCode === 13) {
