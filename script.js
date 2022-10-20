@@ -20,13 +20,15 @@ $(document).ready(function () {
 			$('#list').append(
 				"<div class='alert alert-dark alert-dismissible'>" +
 					text +
-					"<button id='remove' class='btn btn-close close ms-3' aria-label='close'></button>" +
+					"<button id='remove' class='btn btn-close ms-3'></button>" +
 					'</div>'
 			);
 			$('.alert').css('cursor', 'pointer');
 			$('input').val('');
+			//IF THERE'S NO TEXT
 		} else alert('No task was inserted');
 	});
+	//KEYBOARD ENTER BUTTON
 	$('#add-list').keypress(function (event) {
 		if (event.keyCode === 13) {
 			$('#btn-add').click();
@@ -34,9 +36,9 @@ $(document).ready(function () {
 	});
 	//RISK ITEM
 	$(document).on('click', '.alert', function () {
-		if ($(this).css('text-decoration-line') == 'none')
-			$(this).css('text-decoration-line', 'line-through');
-		else $(this).css('text-decoration-line', 'none');
+		$(this).css('text-decoration-line') == 'none'
+			? $(this).css('text-decoration-line', 'line-through')
+			: $(this).css('text-decoration-line', 'none');
 	});
 	//REMOVE ITEM
 	$(document).on('click', '#remove', function () {
