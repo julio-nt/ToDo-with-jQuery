@@ -20,7 +20,7 @@ $(document).ready(function () {
 			$('#list').append(
 				"<div class='alert alert-dark alert-dismissible'>" +
 					text +
-					"<button data-dismiss='alert' class='btn btn-close close ms-3' aria-label='close'></button>" +
+					"<button id='remove' class='btn btn-close close ms-3' aria-label='close'></button>" +
 					'</div>'
 			);
 			$('.alert').css('cursor', 'pointer');
@@ -37,5 +37,9 @@ $(document).ready(function () {
 		if ($(this).css('text-decoration-line') == 'none')
 			$(this).css('text-decoration-line', 'line-through');
 		else $(this).css('text-decoration-line', 'none');
+	});
+	//REMOVE ITEM
+	$(document).on('click', '#remove', function () {
+		$(this).parent().hide();
 	});
 });

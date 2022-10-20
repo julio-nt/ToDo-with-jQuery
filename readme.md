@@ -6,11 +6,7 @@ I made this project to train my jQuery skills, it was made in a day after studyi
 
 ## How it works?
 
-It's a simple to do list, you can write what you want to add to the list and press 'enter' or click on 'add' to add the task writen, when you finish the task you can click on it to mark it as completed. If there's nothing writen it will give an alert message.
-
-## What is missing?
-
-For now I am having trouble to delete the tasks, they can be risked when accomplished, but there's still no way to delete it permanently
+It's a simple to do list, you can write what you want to add to the list and press 'enter' or click on 'add' to add the task writen, when you finish the task you can click on it to mark it as completed or you can also click on the 'X' button to remove it permanently. If there's nothing writen it will show an alert message.
 
 ## Images
 
